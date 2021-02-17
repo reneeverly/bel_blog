@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="no-js">
+  <head>
+    <!-- Generic metadata for search engines-->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}. {{ site.extradescription }}">
+
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="{{ page.title }}">
+    <meta itemprop="description" content="{{ site.description }}. {{ site.extradescription }}">
+
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ site.description }}. {{ site.extradescription }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="La Belarusian Blog">
+    <meta property="og:locale" content="en-US">
+    <meta property="og:type" content="website">
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.root_desc }} - Feed" href="/feed.xml">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" id="frontierline-css" href="/themes/frontierline-rm/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bel.css" media="screen" />
+
+  </head>
+
+  <body class="{% if page.home%}blog{% else %}post-template-default single single-post single-format-standard color-scheme-none pattern-none{% endif %}">
+    <nav id="nav-global" class="nav-global can-stick">
+
+    <div class="content">
+      <div class="logo"><a href="https://ла.бел" rel="external" title="Return to homepage">ла.бел</a></div>
+
+      <div class="nav-mozilla">
+        <span class="toggle" role="button" aria-controls="nav-mozilla-menu" aria-expanded="false" tabindex="0">Menu</span>
+        <ul class="nav-mozilla-menu" id="nav-mozilla-menu">
+          <li class=""><a href="/resources/">Resources &amp; Links</a></li>
+        </ul>
+      </div>
+
+      <a class="page-top" href="#masthead" title="Go to the top of the page">Top</a>
+    </div>
+  </nav>
+
+  <header id="masthead" class="section">
+    <div class="site-id">
+      <div class="site-title-wrap content">
+        {% if page.home%}
+            <h1 id="site-title"><span>{{ site.title }}</span></h1>
+        {% else %}
+        <a href="/"><h1 id="site-title"><span>{{ site.title }}</span></h1></a>
+        {% endif %}
+              <p id="site-description"><span>{{ site.description }}</span></p>
+                </div>
+    </div>
+  </header>
+  <div class="site-wrap">
+
+  <nav id="nav-util" class="can-stick ">
+    <ul class="content">
+  <li>
+  </li>
+    </ul>
+  </nav>
+
+    <main id="content" role="main">
+
+    {{ content }}
+
+      </div>
+    </div>
+</main>
+  </div><!-- /.site-wrap -->
+
+
+
+<footer id="site-info" class="section">
+  <div class="content">
+    <nav class="primary">
+        <div class="small-links">
+          <p class="license">
+          Text and images &copy; 2021 Renée W. Sonntag.<br>
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br><br>
+          Theme is <a href="https://github.com/mozilla/release-blog">"Frontierline" by Mozilla</a>, licensed GPL3.
+        </div>
+    </nav>
+  </div>
+</footer>
+  </body>
+</html>
+

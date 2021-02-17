@@ -1,0 +1,25 @@
+:root {
+--belarusian-red: #E32329;
+}
+
+/* font fix (Zilla Slab doesn't support extended the belarusian alphabet) */
+body, .nav-global .logo a { font-family: 'Roboto Slab', X-LocalSpecific, sans-serif; }
+
+/* navbar coloring
+#nav-global { background: var(--belarusian-red); }
+#nav-global a { color: white; } */
+
+/* logo fix
+.nav-global .logo a { background-image: url("/themes/frontierline/img/mozilla-wordmark-white.svg"); } */
+
+/* logo fix */
+.nav-global .logo { width: auto; }
+.nav-global .logo a { text-decoration: none; font-weight: 700; padding-left: 15px; font-size: 1.5em; line-height: 40px; text-indent: 0px; background: black; color: white; }
+
+/* title fix */
+#site-title span { background: var(--belarusian-red); }
+#site-description span { background: var(--belarusian-red); }
+/* #nav-util { background: var(--belarusian-red); } */
+
+/* background fix */
+#masthead { background-image: url(''); }

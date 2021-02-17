@@ -1,0 +1,21 @@
+title: Belarusian Language Study Blog
+description: Renée's thoughts and experiences in learning Belarusian.
+github: "https://github.com/reneeverly/bel_blog"
+
+navgation:
+- title: Twitter
+  url: https://twitter.com/reneeverly
+- title: Learning Resources
+  url: memetics/
+
+authors:
+  renee:
+    display_name: Renée W. Sonntag
+    web: "https://reneeverly.com"
+    github: reneeverly
+
+paginate: 12
+excerpt_separator: "<!-- more -->"
+
+plugins: [jekyll-paginate]
+
