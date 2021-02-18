@@ -23,3 +23,8 @@ body, .nav-global .logo a { font-family: 'Roboto Slab', X-LocalSpecific, sans-se
 
 /* background fix */
 #masthead { background-image: url(''); }
+
+/* responsivity */
+@media screen and (max-width: 760px) {
+.nav-global .logo a { line-height: 20px; }
+}
