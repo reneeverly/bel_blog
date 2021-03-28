@@ -22,7 +22,7 @@ body, .nav-global .logo a { font-family: 'Roboto Slab', X-LocalSpecific, sans-se
 /* #nav-util { background: var(--belarusian-red); } */
 
 /* background fix */
-#masthead { background-image: url(''); }
+#masthead { background-image: url('/themes/frontierline-rm/img/banner_from_reddit.png'); }
 
 /* responsivity */
 @media screen and (max-width: 760px) {
