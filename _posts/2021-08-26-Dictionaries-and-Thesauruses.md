@@ -2,7 +2,7 @@
 layout: post
 title: "Dictionaries and Thesauruses Pt. 1"
 date:   2021-08-26 12:00:00
-xcover: 2021-08-26.png
+cover: 2021-08-26.jpg
 categories: casual resources
 author: renee
 ---
