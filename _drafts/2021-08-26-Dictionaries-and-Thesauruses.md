@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Dictionaries and Thesauruses"
-date:   2021-06-16 12:00:00
-xcover: 2021-02-17.png
+title: "Dictionaries and Thesauruses Pt. 1"
+date:   2021-08-26 12:00:00
+xcover: 2021-08-26.png
 categories: casual resources
 author: renee
 ---
@@ -17,3 +17,5 @@ The folks over at [Беларуская Палічка](https://knihi.com/), an 
 * "Webster's Belarusan - English Thesaurus Dictionary" by Philip Parker is a Belarusian to English thesaurus with 7,502 entries.
 * "Ангельска-беларускі слоўнік" by Валентына Пашкевіч is an English (American) to Belarusian (Taraskievica) thesaurus with 30,000 entries.
 * "Англійска-беларускі слоўнік" by Тамара Суша is an English (British) to Belarusian thesaurus with 60,000 entries.
+
+I had this sitting in my queue for about two months, so I figured I would just publish it and work on Pt. 2 later.  Enjoy!
